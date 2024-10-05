@@ -4,12 +4,12 @@ import { addDoc, collection, getFirestore } from 'firebase/firestore'
 import { toast } from "react-toastify";
 
 const firebaseConfig = {
-  apiKey: " ",
-  authDomain: " ",
-  projectId: " ",
-  storageBucket: " ",
-  messagingSenderId: " ",
-  appId: " "
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: " "
 };
 
 const app = initializeApp(firebaseConfig); 
